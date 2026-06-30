@@ -5,6 +5,23 @@ This project simulates a small office network with three departments - Admin/IT,
 ![Network Topology](topology.PNG)
 *Ref 1. Small Office Network Topology Diagram*
 
+## Scenario / Requirements
+The company provided the following requirements for the branch network implementation:
+
+a. One router and one switch, both Cisco products
+
+b. Three departments: Admin/IT, Finance/HR, and Customer Service/Reception
+
+c. Each department must be on a separate VLAN
+
+d. Each department must have wireless network access for its users
+
+e. Host devices must obtain an IPv4 address automatically (via DHCP)
+
+f. Devices across all departments must be able to communicate with each other
+
+The ISP assigned a base network of **192.168.1.0**, which had to be subnetted to accommodate all three departments.
+
 ## Objective
 The goal of this lab was to design a simple, practical network for a small office where different departments need to be logically separated for security and organizational purposes, while still being able to route between them and reach external networks through a single router.
 
