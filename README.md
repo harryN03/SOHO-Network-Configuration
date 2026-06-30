@@ -2,7 +2,7 @@
 ## Overview
 This project simulates a small office network with three departments — Admin/IT, Finance/HR, and Customer Service/Reception — each segmented into its own VLAN for security and traffic isolation. The network includes a single Layer 3 router, a core switch, and a mix of wired and wireless end devices (PCs, laptops, printers, smartphones) across each department.
 
-![Network Topology](topology.png)
+![Network Topology](topology.PNG)
 *Ref 1. Small Office Network Topology Diagram*
 
 ## Objective
