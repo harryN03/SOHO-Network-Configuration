@@ -1,6 +1,6 @@
 # SOHO Network Design & Implementation Project
 ## Overview
-This project simulates a small office network with three departments — Admin/IT, Finance/HR, and Customer Service/Reception — each segmented into its own VLAN for security and traffic isolation. The network includes a single Layer 3 router, a core switch, and a mix of wired and wireless end devices (PCs, laptops, printers, smartphones) across each department.
+This project simulates a small office network with three departments - Admin/IT, Finance/HR, and Customer Service/Reception - each segmented into its own VLAN for security and traffic isolation. The network includes a single Layer 3 router, a core switch, and a mix of wired and wireless end devices (PCs, laptops, printers, smartphones) across each department.
 
 ![Network Topology](topology.PNG)
 *Ref 1. Small Office Network Topology Diagram*
@@ -11,11 +11,11 @@ The goal of this lab was to design a simple, practical network for a small offic
 ## Topology Summary
 - **Router**: Cisco 2911 (Router0) acting as the gateway for all VLANs
 - **Core Switch**: Cisco 2960-24TT (Switch0) connecting all departments and the router
-- **Admin/IT (VLAN 10)** — Subnet: 192.168.1.0/26
+- **Admin/IT (VLAN 10)** - Subnet: 192.168.1.0/26
   - 1 PC, 1 Laptop, 1 Printer, 1 Smartphone (wireless), 1 Access Point
-- **Finance/HR (VLAN 20)** — Subnet: 192.168.1.64/26
+- **Finance/HR (VLAN 20)** - Subnet: 192.168.1.64/26
   - 1 PC, 1 Laptop, 1 Printer, 1 Smartphone (wireless), 1 Access Point
-- **CS/Reception (VLAN 30)** — Subnet: 192.168.1.128/26
+- **CS/Reception (VLAN 30)** - Subnet: 192.168.1.128/26
   - 1 PC, 1 Printer, 1 Access Point
 
 ## What I Built
